@@ -26,7 +26,7 @@ Fully functional Django App that looks exactly like real Twitter.
 
 ----
 
-## Snapshots:
+<!-- ## Snapshots: -->
 
 <!-- ### 1. Without Login:<br>
 <p align="center"><img src="Screenshots/before_login.png" width="900"></p>
