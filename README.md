@@ -1,5 +1,4 @@
-# Django Twitter Clone by Simran Dhiman
-
+<h2 align="center">🕊 Twirrer - Twitter Clone using Django 🕊</h2>
 Fully functional Django App that looks exactly like real Twitter.
 
 ----
@@ -17,6 +16,7 @@ Fully functional Django App that looks exactly like real Twitter.
 ## Features 📋
 ⚡️ SignUp and SignIn option.\
 ⚡️ Like or Unlike tweets.\
+⚡️ Comments on tweets.\
 ⚡️ Create new tweets.\
 ⚡️ Modify previous tweets.\
 ⚡️ Delete tweets with one click.\
