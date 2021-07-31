@@ -26,20 +26,10 @@ Fully functional Django App that looks exactly like real Twitter.
 
 ----
 
-<!-- ## Snapshots: -->
+## Snapshots:
 
-<!-- ### 1. Without Login:<br>
-<p align="center"><img src="Screenshots/before_login.png" width="900"></p>
+<p align="center"><img src="TwitterDemo.png" width="900"></p>
 
-### 2. After Login:<br>
-<p align="center"><img src="Screenshots/after_login.png" width="900"><img src="Screenshots/after_login1.png" width="900"></p>
-
-### 3. Features after Login:
-<p align="center"><img src="Screenshots/create_blog.png" width="900"><img src="Screenshots/modify_blog.png" width="900"></p>
-
-### 4. SignIn and SignUp Page:
-<p align="center"><img src="Screenshots/sign_in.png" width="400" height="250"> <img src="Screenshots/sign_up.png" width="400" height="250"></p>
- -->
 
 ----
 
