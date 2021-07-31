@@ -1,0 +1,43 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+    <form method="POST" class="col-12 col-md-6 pl-3 pr-3 pl-md-0 pr-md-0">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="mb-3 white-important">
+                Login
+            </legend>
+            {{ form | crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-primary" type="submit">Login</button>
+        </div>
+    </form>
+
+    <div id="sawo-container" style="height: 300px; width: 300px;"></div>
+
+    <div class="pt-3">
+        <small class="text-muted">
+            Do you need an account? <a class="ml-2" href="{% url 'register-users' %}">Sign up</a>
+        </small>
+    </div>
+</div>
+<script src="http://websdk.sawolabs.com/sawo.min.js"></script>    
+                    <script>
+                        var config = {
+                            // should be same as the id of the container created on 3rd step
+                            containerID: "sawo-container",
+                            // can be one of 'email' or 'phone_number_sms'
+                            identifierType: "simrandhiman5808@gmail.com",
+                            // Add the API key copied from 2nd step
+                            apiKey: "85a34fe7-77e4-4d86-87b6-63545e685cb5",
+                            // Add a callback here to handle the payload sent by sdk
+                            onSuccess: (payload) => {
+                                console.log(payload)
+                            },
+                        };
+                        var sawo = new Sawo(config);
+                        sawo.showForm();
+                    </script>
+{% endblock content %}
